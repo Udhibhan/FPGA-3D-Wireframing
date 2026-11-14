@@ -1,0 +1,22 @@
+# STM32CubeIDE build output
+Debug/
+Release/
+*.o
+*.d
+*.su
+*.cyclo
+*.elf
+*.map
+*.list
+
+# FPGA build intermediates
+*.json
+*.config
+fpga/sim/*.hex
+fpga/sim/*.out
+fpga/sim/*.log
+
+# Python / OS
+__pycache__/
+*.pyc
+.DS_Store
